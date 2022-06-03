@@ -49,24 +49,6 @@ body {
 	margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
-	.main-info,
-	.contact_info_container {
-		flex-direction: column;
-	}
-
-	.contact_info_container {
-		align-items: center;
-	}
-
-	.contact-info__block:not(:last-child) {
-		margin-bottom: 20px;
-	}
-
-	.experiences {
-		margin-right: 0;
-	}
-}
 /* end general  */
 
 /* contact */
@@ -268,3 +250,22 @@ body {
 	color: var(--secondary-text-color);
 }
 /*end Experience*/
+
+@media screen and (max-width: 576px) {
+	.main-info,
+	.contact_info_container {
+		flex-direction: column;
+	}
+
+	.contact_info_container {
+		align-items: center;
+	}
+
+	.contact-info__block:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.experiences {
+		margin-right: 0;
+	}
+}
