@@ -51,6 +51,32 @@ body {
 
 /* end general  */
 
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid var(--border-color);
+}
+
+.header__foto img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.header__contacts {
+	display: flex;
+	flex-direction: column;
+}
+.header__contacts a {
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
 /* contact */
 .contact-info__header,
 .contact-info__sub-header {
@@ -150,8 +176,18 @@ body {
 }
 
 .skills__text {
+	display: flex;
+	justify-content: space-around;
 	color: var(--secondary-text-color);
 	text-align: justify;
+}
+
+.type__title {
+	margin-bottom: 20px;
+}
+.skills__type li {
+	margin-bottom: 10px;
+	list-style: none;
 }
 /* end intro */
 
