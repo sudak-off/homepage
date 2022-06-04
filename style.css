@@ -53,6 +53,7 @@ body {
 
 .header {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 20px;
@@ -61,6 +62,7 @@ body {
 }
 
 .header__foto img {
+	margin: 20px;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
