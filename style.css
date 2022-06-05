@@ -194,11 +194,8 @@ body {
 /* end intro */
 
 /* Experience */
-.experiences {
-	flex: 1 1 60%;
-	margin-right: 50px;
-}
 
+/* 
 .experiences__header {
 	color: var(--secondary-text-color);
 	text-align: left;
@@ -286,7 +283,7 @@ body {
 
 .additional-info__languages-item {
 	color: var(--secondary-text-color);
-}
+} */
 /*end Experience*/
 
 @media screen and (max-width: 576px) {
@@ -473,4 +470,14 @@ body {
 	font-size: 1rem;
 	justify-content: center;
 	align-items: center;
+}
+
+/* footer */
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+}
+.gif {
+	width: 250px;
 }
